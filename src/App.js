@@ -9,8 +9,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' Component={Home}></Route>
-        <Route path='/login' Component={Login}></Route>
+        <Route path='/loggined' Component={Home}></Route>
+        <Route path='/' Component={Login}></Route>
         <Route path='/teams' Component={Teams}></Route>
         <Route path='/players' Component={Players}></Route>
       </Routes>

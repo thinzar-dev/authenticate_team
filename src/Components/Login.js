@@ -29,7 +29,7 @@ const Login = () => {
         response.data.data.map((user) => {
           if (user.first_name === formData.username) {
             alert("Login successfully");
-            navigate("/");
+            navigate("/loggined");
           } else if (formData.username !== "") {
             isValid = false;
             validationErrors.username = "Wrong username";

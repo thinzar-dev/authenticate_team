@@ -19,7 +19,7 @@ const Home = () => {
   const logout = () => {
     localStorage.removeItem("token-info");
       setIsLoggedin(false);
-      navigate("/login");
+      navigate("/");
   };
 
   return (
